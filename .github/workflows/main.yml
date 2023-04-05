@@ -9,8 +9,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
-    - name: Copy code
-      uses: actions/chechout@v1
+    - name: Checkout
+      uses: actions/checkout@v2.7.0
       
     - name: Configure AWS Credentials For GitHub Actions
       uses: aws-actions/configure-aws-credentials@v2
