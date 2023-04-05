@@ -20,4 +20,4 @@ jobs:
         aws-region: us-east-1
         
     - name: Copy app to s3 bucket
-      run: aws s3 cp . s3://atlantis-learn-lesson/
+      run: aws s3 cp app.py s3://atlantis-learn-lesson/
