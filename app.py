@@ -14,7 +14,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, World12345678910sfgsd!"
+    return "Hello, World"
 
 @app.route("/api/sum")
 def sum():
